@@ -1,0 +1,469 @@
+body{
+	background-image: url('img/bg5.jpg');
+	color:#000305;
+	font-size:87.5%;
+	font-family:Arial,'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align:left;
+}
+
+.body{
+	margin:0 auto;
+	width:70%;
+	clear:both;
+}
+.mainHeader img{
+width: 100%;
+height:40%;
+margin:2% 0;
+}
+.mainHeader nav{
+	background-color:#666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+.mainHeader nav ul {
+	list-style:none;
+	margin:0 auto;
+	
+}
+
+.mainHeader nav ul li {
+	float:left;
+	display:inline;
+	
+	
+}
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	color:#FFF;
+	display:inline-block;
+	padding:10px 25px;
+	height:20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+	background-color:#87CEFA;
+	text-shadow:none;
+}
+
+.mainHeader nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+.mainContent{
+	line-height: 30 px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	
+}
+
+.content {
+	width: 100%;
+	float: left;
+}
+.topcontent{
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top:2%;
+}
+.bottoncontent{
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top:2%;
+}
+.mainFooter{
+	width:100%;
+	float:left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	
+	
+}
+.mainFooter p{
+	width: 92%;
+	margin: 1% auto;
+	color:#FFF;
+	margin-left:45%;
+	
+	
+}
+/*Delatnosti________________*/
+.Gornja img{
+	width:100%;
+	height:40%;
+	margin:2% 0;
+	
+}
+.Gornja nav{
+	background-color:#666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+.Gornja nav ul {
+	list-style:none;
+	margin:0 auto;
+	
+}
+
+.Gornja nav ul li {
+	float:left;
+	display:inline;
+	
+	
+}
+.Gornja nav a:link, .Gornja nav a:visited{
+	color:#FFF;
+	display:inline-block;
+	padding:10px 25px;
+	height:20px;
+}
+
+.Gornja nav a:hover, .Gornja nav a:active,
+.Gornja nav .active a:link, .Gornja nav .active a:visited{
+	background-color:#87CEFA;
+	text-shadow:none;
+}
+
+.Gornja nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+.Glavni{
+	line-height: 30 px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	
+}
+
+.glavni {
+	width: 100%;
+	float: left;
+}
+.prviglavni{
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top:2%;
+}
+.prviglavni img{
+	width:100%;
+	height:45%;
+	margin: 2% 0;
+}
+/*Partneri________________*/
+.Gore img{
+	width:100%;
+	height:40%;
+	margin:2% 0;
+	
+}
+.Gore nav{
+	background-color:#666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+.Gore nav ul {
+	list-style:none;
+	margin:0 auto;
+	
+}
+
+.Gore nav ul li {
+	float:left;
+	display:inline;
+	
+	
+}
+.Gore nav a:link, .Gore nav a:visited{
+	color:#FFF;
+	display:inline-block;
+	padding:10px 25px;
+	height:20px;
+}
+
+.Gore nav a:hover, .Gore nav a:active,
+.Gore nav .active a:link, .Gore  nav .active a:visited{
+	background-color:#87CEFA;
+	text-shadow:none;
+}
+
+.Gore nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+.Gore{
+	line-height: 30 px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	
+}
+
+.Mejn {
+	width: 90%;
+	float: left;
+}
+.mejn{
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+	margin-top:2%;
+}
+
+
+
+
+
+
+ .tooltip{
+        position:absolute;
+		z-index:1;
+        margin-left:0px;
+		margin-top:10px;
+        width:300px;
+        height:100px;
+        border:1px solid black;
+        display:none;
+		background-color:#1E90FF;
+		border-radius:20px;
+		animation-name: anim3;
+        animation-duration: 1s;
+		color:white;
+		text-align: center;
+        padding: 5px 0;
+    }
+	div.img {
+    margin: 5px;
+    border: 2px solid #ccc;
+   
+    width: 230px;
+	margin-left:0px;
+	
+}
+
+div.img:hover {
+    border: 2px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+	.tooltipA{
+        position:absolute;
+		z-index:1;
+        margin-left:220px;
+		margin-top:10px;
+        width:300px;
+        height:100px;
+        border:1px solid black;
+        display:none;
+		background-color:#1E90FF;
+		border-radius:20px;
+		animation-name: anim3;
+        animation-duration: 1s;
+		color:white;
+		text-align: center;
+        padding: 5px 0;
+    }
+	
+div.imgA {
+    margin-top: -175px;
+    border: 2px solid #ccc;
+   
+    width: 180px;
+	margin-left:265px;
+	
+}
+
+div.imgA:hover {
+    border: 2px solid #777;
+}
+
+div.imgA img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.tooltipB{
+        position:absolute;
+		z-index:1;
+        margin-left:900px;
+		margin-top:10px;
+        width:300px;
+        height:100px;
+        border:1px solid black;
+        display:none;
+		background-color:#1E90FF;
+		border-radius:20px;
+		animation-name: anim3;
+        animation-duration: 1s;
+		color:white;
+		text-align: center;
+        padding: 5px 0;
+    }
+	
+div.imgB {
+    margin-top: -180px;
+    border: 2px solid #ccc;
+    height:180px;
+    width: 180px;
+	margin-left:890px;
+	
+}
+
+div.imgB:hover {
+    border: 2px solid #777;
+}
+
+div.imgB img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.tooltipC{
+        position:absolute;
+		z-index:1;
+        margin-left:450px;
+		margin-top:10px;
+        width:300px;
+        height:100px;
+        border:1px solid black;
+        display:none;
+		background-color:#1E90FF;
+		border-radius:20px;
+		animation-name: anim3;
+        animation-duration: 1s;
+		color:white;
+		text-align: center;
+        padding: 5px 0;
+    }
+	
+div.imgC {
+    margin-top:-185px;
+    border: 2px solid #ccc;
+   
+    width: 180px;
+	margin-left:470px;
+	
+}
+
+div.imgC:hover {
+    border: 2px solid #777;
+}
+
+div.imgC img {
+    width: 100%;
+    height: 18%;
+}
+	
+	
+	
+	
+	
+.tooltipD{
+        position:absolute;
+		z-index:1;
+        margin-left:660px;
+		margin-top:10px;
+        width:300px;
+        height:100px;
+        border:1px solid black;
+        display:none;
+		background-color:#1E90FF;
+		border-radius:20px;
+		animation-name: anim3;
+        animation-duration: 1s;
+		color:white;
+		text-align: center;
+        padding: 5px 0;
+    }
+	
+div.imgD {
+    margin-top: -180px;
+    border: 2px solid #ccc;
+   
+    width: 180px;
+	margin-left:680px;
+	
+}
+
+div.imgD:hover {
+    border: 2px solid #777;
+}
+
+div.imgD img {
+    width: 100%;
+    height: auto;
+}
+
+.granicniDiv2{margin-top:40px;
+}
+
+
+/*O kompaniji________________*/
+
+.span1
+{font-weight:bold;
+     color: blue;
+	 text-decoration:underline;
+}
+/* Prozivodi________________-*/
+.tabela{width:800px;
+  height:400px;
+  margin-left:auto;
+  margin-right: auto;
+  background: white;
+  border:1px solid black;
+  border-collapse:collapse;
+  text-indent:4px
+}
+tr,td{border:1px solid black;}
+
+.caption1{font-weight:bold;
+          background-color:lightblue;
+    padding:5px}
+
+    
+.tabela2{margin-top:30px;}
+	 

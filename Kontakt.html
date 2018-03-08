@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/> <!--ovo je za uncoding stranice-->
+	<link rel="stylesheet" href="style2.css" type="text/css"/>
+	<meta name="Kontakt" content="width=device-width, initial-scale=1.0">
+	<script src="skriptica.js"> </script>
+	</head>
+	<body>
+	<body class="body">
+
+	<header class="mainHeader"> 
+        <nav><ul>
+			<li><a href="Strana.html">Home</a></li>
+		</ul></nav>		
+	</header>
+	<div class="mainContent">
+		<div class="content">
+			<article class="topcontent">
+				<header>
+					<h2> <title>="Kontakt"</title> Kontaktirajte nas </h2>
+				</header>			
+				<content>
+				<form style="margin-left:0px">
+					<fieldset>
+					<legend>Informacije o vama:</legend>
+	
+					Ime: </br>
+					<input   type="text" size="15" id="ime"></br></br>
+					Prezime: </br>
+					<input type="text" size="15" id="prezime"></br></br>
+					Naslov poruke: </br>
+					<input type="text" size="15" id="naslov"></br></br>
+					Tekst poruke: </br>
+					<textarea cols="40" rows="10" name="poruka" id="poruka"> </textarea></br></br>
+					Broj telefona:</br> 
+					<input type="text" name="brtel" id="broj" ></br></br>
+					Izaberite tip poruke:</br>
+					<select>
+						<option>obaveštenje</option>
+						<option>naredba</option>
+						<option>molba</option>
+					</select> </br></br>
+					<input   type="Submit" value="Pošalji">
+					<input   type="button" value="Validacija" onclick="validacija()">
+	
+				</fieldset>
+			
+				</form>
+				
+				</content>
+			</article>
+		</div>
+	</div>
+	</body>
+	<footer class="mainFooter">
+		<p>Copyright &copy 2017<a title="End of show"></a> </p>
+	</footer>
+	</body>
+	</html>
